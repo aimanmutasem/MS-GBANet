@@ -17,7 +17,7 @@ This repository hosts the initial public release of **MS-GBANet**, focused **on 
     pip install -r requirements.txt
     ```
 
-    3. Download or prepare the test datasets and place them in `./data/polyp/TestDataset/`.
+3. Download or prepare the test datasets and place them in `./data/polyp/TestDataset/`.
 
 ## Usage
 
