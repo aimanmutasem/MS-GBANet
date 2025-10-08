@@ -16,3 +16,16 @@ This repository hosts the initial public release of **MS-GBANet**, focused **on 
     ```sh
     pip install -r requirements.txt
     ```
+
+    3. Download or prepare the test datasets and place them in `./data/polyp/TestDataset/`.
+
+## Usage
+
+### Testing
+
+To evaluate the model on the test datasets, run:
+
+```sh
+python test_polyp.py --model_path ./model_pth/Polyp_MSGBANET_img_size352bs4_Run1/Polyp_MSGBANET_img_size352bs4_Run1-best.pth
+```
+
