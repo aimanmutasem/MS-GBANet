@@ -11,3 +11,8 @@ This repository hosts the initial public release of **MS-GBANet**, focused **on 
     git clone https://github.com/aimanmutasem/MS-GBANet.git
     cd MS-GBANe
     ```
+
+2. Install dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
