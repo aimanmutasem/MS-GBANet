@@ -19,7 +19,8 @@ This repository hosts the initial public release of **MS-GBANet**, focused **on 
 
 3. Download the training and test datasets from [Google Drive](https://drive.google.com/file/d/1pFxb9NbM8mj_rlSawTlcXG1OdVGAbRQC/view), then extract/move them into the project directory at `./data/polyp/`.
 
-
+4. Download the pretrained [PVTv2 model](https://drive.google.com/drive/folders/1Eu8v9vMRvt-dyCH0XSV2i77lAd62nPXV), then move the .pth file to ./pretrained_pth/ for initialization.
+5. 
 ## Usage
 
 ### Testing
