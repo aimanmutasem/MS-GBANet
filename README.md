@@ -31,3 +31,28 @@ To evaluate the model on the test datasets, run:
 python test_polyp.py --model_path ./model_pth/Polyp_MSGBANET_img_size352bs4_Run1/Polyp_MSGBANET_img_size352bs4_Run1-best.pth
 ```
 
+You can adjust parameters such as `--img_size`, `--test_path`, and `--skip_aggregation` as needed.
+
+### Model Card and Hugging Face Hub
+
+To push your trained model to the Hugging Face Hub, use the [`push_to_hf_hub`](LLM_MSGCNET/msgbanet-main/lib/models_timm/hub.py) function. This will create a model card (`README.md`) with tags for image classification and timm.
+
+## Directory Structure
+
+- `lib/models_timm/`: Model and hub utilities
+- `test_polyp.py`: Main script for testing and evaluation
+- `data/polyp/TestDataset/`: Test datasets
+- `model_pth/`: Pretrained model weights
+
+## Citation
+
+The paper is under review, : ) .
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+For questions or issues, please open an [issue](https://github.com/aimanmutasem/MS-GBANet/issues).
+
