@@ -2,7 +2,7 @@
 
 This repository hosts the initial public release of **MS-GBANet**, focused **on polyp segmentation** (training/testing) in colonoscopy images. The code is implemented in PyTorch and uses boundary-aware attention for accurate segmentation.
 
-<p align="center"> <img src="https://github.com/aimanmutasem/MS-GBANet/blob/main/ms-gbanet-architecture.png" alt="MS-GBANet architecture" width="720"> </p>
+<p align="center"> <img src="https://github.com/aimanmutasem/MS-GBANet/blob/main/Msgbanet-architecture.png" alt="MS-GBANet architecture" width="720"> </p>
 
  🔜 **Coming soon:** implementations for additional datasets/modalities, ablation scripts, and pretrained weights.
 
